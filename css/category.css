@@ -1,0 +1,85 @@
+
+body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.category{
+	width: 100%;
+	height: 100%;
+	padding-top: 44px;
+}
+
+.category .category_left{
+	width: 90px;
+	height: 100%;
+	float: left;
+	/*overflow: auto;*/
+	overflow: hidden;
+	z-index: 999;
+}
+.category .category_right{
+	width: 100%;
+	height: 100%;
+	padding-left: 100px;
+}
+
+.category_left_box li a{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-right: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	background: #f3f4f6;
+	font-size: 12px;
+}
+
+.category_left_box .active a{
+	background: #fff;
+	color: #f15353;
+	border-right:none;
+}
+
+/*右侧商品盒子*/
+.category_right{
+	padding: 10px;
+	background: #F0F3F5;
+}
+.category_right .category_right_box{
+	width: 100%;
+	height: 100%;
+}
+
+.category_right_box .banner img{
+	width: 100%;
+}
+
+.product {
+	margin-top: 20px;
+}
+.product h3{
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+.category_right_box .product li{
+	float: left;
+	text-align: center;
+	width: 33.333%;
+	background: #fff;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.category_right_box .product li img{
+	width: 55px;
+	height: 55px;
+}
+.product li a p{
+	font-size: 12px;
+}
+
+
+
+
+

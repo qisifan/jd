@@ -1,0 +1,114 @@
+/*css 初始化 */
+*
+{ 
+    margin:0; padding:0; box-sizing: border-box;
+}
+fieldset, img,input,button 
+{ 
+    border:none; padding:0;margin:0;outline-style:none; 
+}
+ul, ol 
+{ 
+    list-style:none; 
+}
+input 
+{ 
+    padding-top:0; padding-bottom:0;
+}
+select, input 
+{ 
+    vertical-align:middle;
+}
+select, input, textarea 
+{ 
+    font-size:14px; margin:0; 
+}
+
+textarea 
+{ 
+    resize:none; 
+
+} /*防止文本域拖动*/
+
+img 
+{
+    border:0;	
+    vertical-align:middle; 
+}  /*  去掉图片低部默认的3像素空白缝隙*/
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after 
+{
+    content:"";
+    display:block;
+}
+.clearfix:after
+{
+    clear:both;
+}
+.clearfix
+{
+    *zoom:1;/*IE/7/6*/
+}
+
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+
+*[class^="icon"]{
+    background: url(../images/sprites.png) no-repeat;
+    background-size: 200px 200px;
+}
+
+
+/*头部通栏*/
+.top_bar{
+    position: absolute;
+    height: 44px;
+    background: url(../images/header-bg.png) repeat-x;
+    background-size: 1px 44px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+/*返回按钮*/
+.top_bar .icon_back{
+    background-position: -20px 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.top_bar form{
+    width: 100%;
+    height: 44px;
+    padding: 5px 40px;
+}
+.top_bar form input{
+    width: 100%;
+    height: 33px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.top_bar h3{
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: inherit;
+}
+
+.top_bar .icon_menu{
+    background-position: -60px 0;
+    width: 20px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+
+
+
